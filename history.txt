@@ -1,0 +1,25 @@
+
+  283  git clone git@github.com:Taranenko-Anatolii/git-homework.git
+  284  cd git-homework/
+  285  nano README.md
+  286  git chekout -b feature
+  287  git status
+  288  git add .
+  289  git commit -m "add readme file"
+  290  git push
+  291  git checkout -b feature
+  292  nano README.md
+  293  nano .gitignore
+  294  git status
+  295  git commit -am "edit gitignore am redmi"
+  296  git log
+  297  git commit --amend
+  298  git log
+  299  git commit --amend
+  300  git log
+  301  git commit --amend
+  302  git log
+  303  git checkout main
+  304  git merge feature
+  305  git status
+  306  history > history.txt
